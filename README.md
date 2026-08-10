@@ -11,7 +11,10 @@ Try these phrases:
 - `mujhe bees hazaar cash aya`
 - `mujhe 20000 cash aya`
 - `maine 3180 khane ke diye`
+- `2000 rs diye chaye wale ko`
 - `office cash se petrol ke 7500 diye`
+
+The latest parser treats `cash aya` as cash received. For phrases such as `diye chaye wale ko`, it records cash paid and places `Chaye Wala` in the note.
 
 For this offline prototype parser, spoken digits such as `20000` are recognized more reliably than number words such as `bees hazaar`.
 
