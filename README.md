@@ -4,7 +4,16 @@ A mobile-first cash management prototype for Roman Urdu voice, chat and manual t
 
 ## Test locally
 
-Open `index.html` in Chrome. Voice entry works best in Chrome and may require the page to be served over HTTPS.
+Publish the app on GitHub Pages and open its HTTPS address in Chrome. Allow microphone access when prompted. Voice entry is configured for Pakistan English so spoken Roman Urdu remains in Latin letters for the prototype parser.
+
+Try these phrases:
+
+- `mujhe bees hazaar cash aya`
+- `mujhe 20000 cash aya`
+- `maine 3180 khane ke diye`
+- `office cash se petrol ke 7500 diye`
+
+For this offline prototype parser, spoken digits such as `20000` are recognized more reliably than number words such as `bees hazaar`.
 
 ## Publish with GitHub Pages
 
