@@ -12,9 +12,10 @@ Try these phrases:
 - `mujhe 20000 cash aya`
 - `maine 3180 khane ke diye`
 - `2000 rs diye chaye wale ko`
+- `50000 meezan bank main jama krwaye, cash paid`
 - `office cash se petrol ke 7500 diye`
 
-The latest parser treats `cash aya` as cash received. For phrases such as `diye chaye wale ko`, it records cash paid and places `Chaye Wala` in the note.
+The latest parser treats `cash aya` as cash received. For phrases such as `diye chaye wale ko`, it records cash paid and places `Chaye Wala` in the description. For bank deposits such as `meezan bank main jama krwaye, cash paid`, it records cash paid and preserves `Meezan bank main jama krwaye` as the description.
 
 For this offline prototype parser, spoken digits such as `20000` are recognized more reliably than number words such as `bees hazaar`.
 
